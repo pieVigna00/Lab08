@@ -3,15 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.polito.tdp</groupId>
-    <artifactId>ArtsMia</artifactId>
+    <artifactId>GestoreCorsi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>ArtsMia</name>
+    <name>GestoreCorsi</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mainClass>it.polito.tdp.artsmia.Main</mainClass>
+        <mainClass>it.polito.tdp.corsi.Main</mainClass>
     </properties>
 
     <organization>
@@ -22,12 +22,12 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>11</version>
+            <version>18.0.2</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>11</version>
+            <version>18.0.2</version>
         </dependency>
         <dependency>
 		    <groupId>com.zaxxer</groupId>
@@ -45,10 +45,16 @@
 		    <version>2.5.4</version>
 		</dependency>
 		<dependency>
-	       <groupId>org.slf4j</groupId>
-	       <artifactId>slf4j-log4j12</artifactId>
-	       <version>1.7.5</version>
-	    </dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-api</artifactId>
+		    <version>1.7.30</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-simple</artifactId>
+		    <version>1.7.30</version>
+		</dependency>
+
         
     </dependencies>
     <build>
